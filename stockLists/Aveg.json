@@ -1,0 +1,54 @@
+{
+   "AAL": {
+      "BuyT": "9",
+      "SellT": "25"
+   },
+   "BP": {
+      "BuyT": "20",
+      "SellT": "40"
+   },
+   "CCL": {
+      "BuyT": "12",
+      "SellT": "16"
+   },
+   "CVX": {
+      "BuyT": "60",
+      "SellT": "105"
+   },
+   "DEL": {
+      "BuyT": "22",
+      "SellT": "30"
+   },
+   "HAL": {
+      "BuyT": "6",
+      "SellT": "12"
+   },
+   "KOS": {
+      "BuyT": ".5",
+      "SellT": "100"
+   },
+   "LUV": {
+      "BuyT": "30",
+      "SellT": "36"
+   },
+   "OXY": {
+      "BuyT": "12",
+      "SellT": "18"
+   },
+   "SAVE": {
+      "BuyT": "12",
+      "SellT": "20"
+   },
+   "SBUX": {
+      "BuyT": "65",
+      "SellT": "85"
+   },
+   "TSLA": {
+      "BuyT": "600",
+      "SellT": "900"
+   },
+   "UBER": {
+      "BuyT": "20",
+      "SellT": "250"
+   }
+}

@@ -1,0 +1,376 @@
+{
+   "AAL": {
+      "Name": "American Airlines",
+      "BuyT": 9.5,
+      "SellT": 16
+   },
+   "AEO": {
+      "Name": "American Eagle",
+      "BuyT": 6,
+      "SellT": 13
+   },
+   "ALK": {
+      "BuyT": "20",
+      "SellT": "50"
+   },
+   "AMC": {
+      "Name": "AMC",
+      "BuyT": 2.5,
+      "SellT": 6
+   },
+   "APA": {
+      "Name": "Apache Corporation",
+      "BuyT": 7,
+      "SellT": 30
+   },
+   "APHA": {
+      "Name": "Aphria",
+      "BuyT": 2.8,
+      "SellT": 4.5
+   },
+   "ARCH": {
+      "Name": "Arch Coal",
+      "BuyT": 22,
+      "SellT": 40
+   },
+   "ATNM": {
+      "Name": "Atinium Pharma",
+      "BuyT": 0.15,
+      "SellT": 0.3
+   },
+   "AXP": {
+      "Name": "American Express",
+      "BuyT": 80,
+      "SellT": 110
+   },
+   "BA": {
+      "Name": "Boeing",
+      "BuyT": 110,
+      "SellT": 200
+   },
+   "BAC": {
+      "Name": "Bank of America",
+      "BuyT": 21,
+      "SellT": 35
+   },
+   "BP": {
+      "Name": "British Petroleum",
+      "BuyT": 22,
+      "SellT": 30
+   },
+   "C": {
+      "Name": "CitiGroup",
+      "BuyT": 40.5,
+      "SellT": 55
+   },
+   "CCL": {
+      "Name": "Carnival Cruise",
+      "BuyT": 10,
+      "SellT": 25
+   },
+   "CNK": {
+      "Name": "Cinemark",
+      "BuyT": 6,
+      "SellT": 20
+   },
+   "CNP": {
+      "Name": "Centerpoint Energy",
+      "BuyT": 13,
+      "SellT": 27
+   },
+   "CPRX": {
+      "Name": "Catalyst Pharma",
+      "BuyT": 3.8,
+      "SellT": 6
+   },
+   "DAL": {
+      "Name": "Delta Airlines",
+      "BuyT": 21,
+      "SellT": 40
+   },
+   "DELL": {
+      "Name": "DELL",
+      "BuyT": 37,
+      "SellT": 44
+   },
+   "DENN": {
+      "Name": "Dennys Restraunt",
+      "BuyT": 7,
+      "SellT": 12
+   },
+   "DFS": {
+      "Name": "Discover",
+      "BuyT": 31,
+      "SellT": 55
+   },
+   "DIS": {
+      "Name": "Disney",
+      "BuyT": 85,
+      "SellT": 120
+   },
+   "ERJ": {
+      "Name": "Embraer",
+      "BuyT": 5.06,
+      "SellT": 10
+   },
+   "ET": {
+      "Name": "Energy Transfer",
+      "BuyT": 5,
+      "SellT": 10
+   },
+   "EXPE": {
+      "Name": "Expedia",
+      "BuyT": 55,
+      "SellT": 100
+   },
+   "F": {
+      "Name": "Ford",
+      "BuyT": 4.1,
+      "SellT": 7.5
+   },
+   "FOSL": {
+      "Name": "Fossil",
+      "BuyT": 3,
+      "SellT": 9
+   },
+   "FTI": {
+      "Name": "Technip FMC",
+      "BuyT": 7,
+      "SellT": 12
+   },
+   "GE": {
+      "Name": "General Electrics",
+      "BuyT": 6,
+      "SellT": 11
+   },
+   "HAL": {
+      "Name": "Halliburton",
+      "BuyT": 7,
+      "SellT": 14
+   },
+   "HNRG": {
+      "Name": "Hallador Coal",
+      "BuyT": 0.6,
+      "SellT": 0.9
+   },
+   "HPE": {
+      "Name": "HP Enterprise",
+      "BuyT": 8,
+      "SellT": 12
+   },
+   "IBN": {
+      "Name": "ICICI",
+      "BuyT": 7,
+      "SellT": 15
+   },
+   "INO": {
+      "Name": "Inovio",
+      "BuyT": 6.5,
+      "SellT": 15
+   },
+   "INVE": {
+      "Name": "Identiv Inc",
+      "BuyT": 2.4,
+      "SellT": 4.5
+   },
+   "IVZ": {
+      "Name": "Invesco",
+      "BuyT": 6.7,
+      "SellT": 12
+   },
+   "JBLU": {
+      "Name": "Jetblue",
+      "BuyT": 7.7,
+      "SellT": 18
+   },
+   "JDST": {
+      "Name": "JDST",
+      "BuyT": 25,
+      "SellT": 45
+   },
+   "JPM": {
+      "Name": "JPMC Chase",
+      "BuyT": 85,
+      "SellT": 120
+   },
+   "KSS": {
+      "Name": "Kohl",
+      "BuyT": 14.5,
+      "SellT": 25
+   },
+   "LUV": {
+      "Name": "Southwest Airlines",
+      "BuyT": 28,
+      "SellT": 50
+   },
+   "LYFT": {
+      "Name": "LYFT Inc",
+      "BuyT": 27,
+      "SellT": 45
+   },
+   "MCHP": {
+      "Name": "Microchip",
+      "BuyT": 65,
+      "SellT": 95
+   },
+   "MFA": {
+      "Name": "MFA Financial",
+      "BuyT": 1.5,
+      "SellT": 2.2
+   },
+   "MPC": {
+      "Name": "Marathon Petroleum",
+      "BuyT": 23,
+      "SellT": 40
+   },
+   "MRO": {
+      "Name": "Marathon Oil",
+      "BuyT": 3.8,
+      "SellT": 10
+   },
+   "MTNB": {
+      "Name": "Matinas BioPharma",
+      "BuyT": 0.6,
+      "SellT": 1.2
+   },
+   "MU": {
+      "Name": "Micron Technology",
+      "BuyT": 38,
+      "SellT": 56
+   },
+   "MUR": {
+      "Name": "Murphy Oil",
+      "BuyT": 8.5,
+      "SellT": 12
+   },
+   "NBL": {
+      "Name": "Noble Energy",
+      "BuyT": 6,
+      "SellT": 14
+   },
+   "NCLH": {
+      "Name": "Norwegian Cruise",
+      "BuyT": 10,
+      "SellT": 19
+   },
+   "NEX": {
+      "Name": "Nextier Oilfield",
+      "BuyT": 1.5,
+      "SellT": 7
+   },
+   "NNVC": {
+      "Name": "Nanoviricides",
+      "BuyT": 4.5,
+      "SellT": 8
+   },
+   "NOK": {
+      "Name": "Nokia",
+      "BuyT": 2.5,
+      "SellT": 5
+   },
+   "NOV": {
+      "Name": "National Oilwell",
+      "BuyT": 10,
+      "SellT": 13
+   },
+   "NTNX": {
+      "Name": "Nutanix",
+      "BuyT": 15,
+      "SellT": 32
+   },
+   "NVAX": {
+      "Name": "Novavax",
+      "BuyT": 7,
+      "SellT": 21
+   },
+   "OXY": {
+      "Name": "Occidental Petrol",
+      "BuyT": 12,
+      "SellT": 20
+   },
+   "PLAY": {
+      "Name": "Dave & Buster",
+      "BuyT": 11,
+      "SellT": 25
+   },
+   "RCL": {
+      "Name": "Royal Caribbean",
+      "BuyT": 28,
+      "SellT": 50
+   },
+   "SABR": {
+      "Name": "Sabre",
+      "BuyT": 5,
+      "SellT": 12
+   },
+   "SAVE": {
+      "Name": "Spirit Airlines",
+      "BuyT": 11.5,
+      "SellT": 26
+   },
+   "SIX": {
+      "Name": "Six Flag",
+      "BuyT": 11,
+      "SellT": 25
+   },
+   "TFC": {
+      "Name": "Truist Financial",
+      "BuyT": 29.2,
+      "SellT": 50
+   },
+   "TRIP": {
+      "Name": "Trip Advisor",
+      "BuyT": 15,
+      "SellT": 30
+   },
+   "TSLA": {
+      "Name": "Tesla Motors",
+      "BuyT": 600,
+      "SellT": 850
+   },
+   "TWTR": {
+      "Name": "Twitter",
+      "BuyT": 25,
+      "SellT": 38
+   },
+   "UAA": {
+      "Name": "Under Armor",
+      "BuyT": 9,
+      "SellT": 20
+   },
+   "UAL": {
+      "Name": "United Airlines",
+      "BuyT": 24,
+      "SellT": 40
+   },
+   "UBER": {
+      "Name": "Uber",
+      "BuyT": 26,
+      "SellT": 33
+   },
+   "VLO": {
+      "Name": "Valero Energy",
+      "BuyT": 35,
+      "SellT": 70
+   },
+   "WBA": {
+      "Name": "Walgreens",
+      "BuyT": 40,
+      "SellT": 60
+   },
+   "WDC": {
+      "Name": "Western Digital",
+      "BuyT": 37,
+      "SellT": 60
+   },
+   "WFC": {
+      "Name": "Wells Fargo",
+      "BuyT": 26.3,
+      "SellT": 45
+   },
+   "XOM": {
+      "Name": "Exxon Mobil",
+      "BuyT": 40,
+      "SellT": 48
+   }
+}

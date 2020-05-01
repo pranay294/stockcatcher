@@ -1,0 +1,55 @@
+body { position: absolute; left: 0; right: 0; top: 0; bottom: 0; overflow: hidden; background: linear-gradient(45deg, #c0e6dc00, #deac79); }
+tbody { display: block; }          
+
+/* SCROLLBAR */
+::-webkit-scrollbar { width:12px; }
+::-webkit-scrollbar-track { box-shadow:inset 0 0 5px grey; border-radius:6px; }
+::-webkit-scrollbar-thumb { background:#738bf7; border-radius:6px; }
+::-webkit-scrollbar-thumb:hover { background:#d36b67; }
+
+button { border: none; border-radius: 6px; padding: 2px 20px; background: #719de0; }
+
+/* LOGIN */
+.loginContainer { width: fit-content; padding: 20px; border: 1px solid grey; border-radius: 20px; margin: auto; top: 30%; position: relative; }
+input.login { padding: 2px 8px; border: none; border-radius: 10px; }
+.errMsg { font-size: 12px; text-align: center; color: red; font-weight: bold; }
+.appMessage { font-size: 11px; text-align: center; color: blue; font-weight: bold; }
+
+#stockTable tbody { max-height: 80%; overflow-x: hidden; overflow-y: auto; position: absolute; top: 0; display: block; font-size: 12px; }
+#stockTable tr td { padding: 1px 10px; }
+#stockTable  tr:nth-child(even) { background: #ddccaa; }
+#stockTable tr th { padding: 1px 10px; font-size: 15px; background: #a2a8af; }
+#summary tbody { max-height: 20%; position: absolute; bottom: 0; max-height: 20%; overflow-x: hidden; overflow-y: auto; }
+#summary tr { background: #e6c988; }
+#summary  tr:nth-child(even) { background: #7ec9d0; }
+#summary td { padding: 0 15px; font-weight: bold; font-size: 12px; min-width: 100px; }
+.buy { color: #35bb35; font-weight: bold; }
+.profit { color: #35bb35; font-weight: bold; }
+.neutral > .profit { position: relative; float: right; }
+.neutral > .profit:before { content: url("../images/up.png"); width: 8px; height: 8px; position: relative; right: 4px; top: 1px; }
+.sell { color: #3535bb; font-weight: bold; }
+.loss { color: #bb3535; font-weight: bold; }
+.neutral > .loss { position: relative; float: right; }
+.neutral > .loss:before { content: url("../images/down.png"); width: 8px; height: 8px; position: relative; right: 4px; top: 1px; }
+
+input[type=range] { -webkit-appearance: none; background: transparent; }
+input[type=range]::-webkit-slider-thumb { -webkit-appearance: none; }
+input[type=range]::-webkit-slider-runnable-track { width: 100%; height: 2px; cursor: pointer; background: #3071a9; border-radius: 1px; }
+input[type=range]::-webkit-slider-thumb { -webkit-appearance: none; height: 12px; width: 6px; border-radius: 3px; background: #ff5233; cursor: pointer; margin-top: -6px; }
+
+.switch { position: absolute; bottom: 0; right: 0; display: inline-block; width: 140px; height: 23px; }
+.switch input { opacity: 0; width: 0; height: 0; }
+.slider { position: absolute; cursor: pointer; top: -5px; width: 68px; right: 0; bottom: 0; background-color: #ccc; -webkit-transition: .4s; transition: .4s; border-radius: 15px; }
+.slider:before { position: absolute; content: ""; height: 20px; width: 30px; left: 4px; bottom: 4px; background-color: white; border-radius: 10px; -webkit-transition: .4s; transition: .4s; }
+input:checked + .slider { background-color: #2196F3; }
+input:focus + .slider { box-shadow: 0 0 1px #2196F3; }
+input:checked + .slider:before { -webkit-transform: translateX(30px); }
+span.score { text-align: -webkit-center; margin-right: 10px; border-radius: 8px; width: 15px; height: 13px; display: inline-block; font-weight: bold; color: #eeeeff}
+div.pennyCoins { position: absolute; top: 10px; right: 10px; width: 20px; height: 20px; z-index: 2; }
+div.addCoin { position: absolute; top: 40px; right: 10px; width: 20px; height: 20px; z-index: 2; }
+div.cover { position: absolute; display: none; z-index: 3; left: 0; right: 0; top: 0; bottom: 0; background: #111; opacity: 0.75; }
+div.pennyStockData { position: relative; display: none; z-index: 5; margin: auto; width: fit-content; height: fit-content; max-height: 600px; border-radius: 10px; border: 7px solid #ce6d6d; overflow-x: hidden; overflow-y: auto; text-align: center; background: #ead197; padding: 10px; }
+div.pennyStockData tbody { font-size: 12px; }
+div.pennyStockData tbody td { min-width: 175px; }
+
+div.addCoinScreen { position: absolute; display: none; z-index: 5; width: fit-content; height: fit-content; border-radius: 10px; border: 7px solid #ce6d6d; overflow-x: hidden; overflow-y: hidden; text-align: center; background: #ead197; padding: 10px; right: 10px; }

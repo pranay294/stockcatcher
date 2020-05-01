@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <script src="../jquery.min.js"></script>
+        <script src="../stocks/main.js" defer></script>
+        <link type="text/css" rel="stylesheet" href="../style.css"/>
+    </head>
+    <body>
+         <table id="stockTable"></table>
+         <table id="summary"></table>
+         <div class="pennyCoins"><img style="height: 20px; width: 20px;" title="Penny Stocks" src="images/penny.png"/></div>
+         <div class="addCoin"><img style="height: 20px; width: 20px;" title="Add Stocks" src="images/addIcon.png"/></div>
+         <div class="cover"></div>
+         <div class="pennyStockData"></div>
+         <div class="addCoinScreen">
+            <table>
+               <tr><td>Symbol</td><td><input class="login" type="text" id="stockSymbol"/></td></tr>
+               <tr><td>Buy At</td><td><input class="login" type="number" id="stockBuyAt"/></td></tr>
+               <tr><td>Sell At</td><td><input class="login" type="number" id="stockSellAt"/></td></tr>
+               <tr><td><button class="addCoinBtn">Submit</button></td><td></td></tr>
+            </table>
+            <div class="errMsg"></div>
+         </div>
+         <label class="switch">
+            VOICE
+            <input type="checkbox" onchange='toggleVoiceSuggestion()'>
+            <span class="slider"></span>
+         </label>
+    </body>
+</html>

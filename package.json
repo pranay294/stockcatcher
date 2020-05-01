@@ -1,0 +1,16 @@
+{
+  "name": "stockcatcher",
+  "version": "1.0.0",
+  "description": "Pranay's App on Stock",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Pranay Ranjan",
+  "license": "ISC",
+  "dependencies": {
+    "mime": "1.3.4",
+    "request": "^2.88.2"
+  }
+}
